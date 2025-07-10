@@ -1,0 +1,7 @@
+PT-2-Airflow/airflow/logs/
+PT-2-Airflow/airflow/airflow.db
+PT-2-Airflow/airflow/airflow.cfg
+__pycache__/
+.env
+*.pyc
+.venv/
