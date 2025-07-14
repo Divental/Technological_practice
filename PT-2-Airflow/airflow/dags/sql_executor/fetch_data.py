@@ -3,12 +3,13 @@ import pandas as pd
 import json
 import psycopg2
 
-def fetch_data_from_api():
+def fetch_data_from_api() -> list:
+
     url = "https://api.open-meteo.com/v1/forecast"
     params = {
         "latitude": 49,
         "longitude": 32,
-        "hourly": "temperature_2m,rain,relative_humidity_2m,dew_point_2m"
+        "hourly": "temperature_2m,relative_humidity_2m"
     }
 
     response = requests.get(url, params=params)
@@ -16,6 +17,9 @@ def fetch_data_from_api():
     if response.status_code == 200:
         
         weather_data = response.json()
+
+        with open("weather_data.json", "w", encoding='utf-8') as file:
+            json.dump(weather_data, file, indent=4, ensure_ascii=False)
         
         return weather_data
         
@@ -24,17 +28,18 @@ def fetch_data_from_api():
         return None
 
 
-def sql_connection():
+def sql_execution() -> str:
 
     fd = fetch_data_from_api()
 
     with psycopg2.connect(
-        host="localhost",
+        # host="localhost",
+        host="host.docker.internal",
+        port=5432,
         database="test_db",
         user="postgres",
         password="postgres"
     ) as conn:  
-
 
         with conn.cursor() as cur:
 
@@ -54,4 +59,4 @@ def sql_connection():
 
         conn.commit()
 
-    return "json успішно завантажено у таблицю 'weather_data'"
+    return "JSON успішно завантажено у таблицю weather_data"

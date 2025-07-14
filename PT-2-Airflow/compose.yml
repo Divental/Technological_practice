@@ -1,6 +1,6 @@
 services:
   airflow-init:
-    image: apache/airflow:2.7.3
+    image: apache/airflow:2.10.4
     container_name: airflow_init
     environment:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:postgres@host.docker.internal:5432/airflow
