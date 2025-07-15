@@ -1,0 +1,539 @@
+[
+  {
+    "continent": "Europe",
+    "countries": [
+      {
+        "country": "Germany",
+        "capital": "Berlin",
+        "area": 357022,
+        "population": 83190556,
+        "largest_cities": [
+          "Berlin",
+          "Hamburg",
+          "Munich",
+          "Cologne",
+          "Frankfurt"
+        ]
+      },
+      {
+        "country": "France",
+        "capital": "Paris",
+        "area": 551695,
+        "population": 67391582,
+        "largest_cities": [
+          "Paris",
+          "Marseille",
+          "Lyon",
+          "Toulouse",
+          "Nice"
+        ]
+      },
+      {
+        "country": "United Kingdom",
+        "capital": "London",
+        "area": 242495,
+        "population": 67886011,
+        "largest_cities": [
+          "London",
+          "Birmingham",
+          "Manchester",
+          "Glasgow",
+          "Liverpool"
+        ]
+      },
+      {
+        "country": "Italy",
+        "capital": "Rome",
+        "area": 301340,
+        "population": 59554023,
+        "largest_cities": [
+          "Rome",
+          "Milan",
+          "Naples",
+          "Turin",
+          "Palermo"
+        ]
+      },
+      {
+        "country": "Spain",
+        "capital": "Madrid",
+        "area": 505990,
+        "population": 46754778,
+        "largest_cities": [
+          "Madrid",
+          "Barcelona",
+          "Valencia",
+          "Seville",
+          "Zaragoza"
+        ]
+      },
+      {
+        "country": "Poland",
+        "capital": "Warsaw",
+        "area": 312679,
+        "population": 37846611,
+        "largest_cities": [
+          "Warsaw",
+          "Kraków",
+          "Łódź",
+          "Wrocław",
+          "Poznań"
+        ]
+      },
+      {
+        "country": "Netherlands",
+        "capital": "Amsterdam",
+        "area": 41543,
+        "population": 17441139,
+        "largest_cities": [
+          "Amsterdam",
+          "Rotterdam",
+          "The Hague",
+          "Utrecht",
+          "Eindhoven"
+        ]
+      },
+      {
+        "country": "Greece",
+        "capital": "Athens",
+        "area": 131957,
+        "population": 10423054,
+        "largest_cities": [
+          "Athens",
+          "Thessaloniki",
+          "Patras",
+          "Heraklion",
+          "Larissa"
+        ]
+      },
+      {
+        "country": "Sweden",
+        "capital": "Stockholm",
+        "area": 450295,
+        "population": 10327589,
+        "largest_cities": [
+          "Stockholm",
+          "Gothenburg",
+          "Malmö",
+          "Uppsala",
+          "Västerås"
+        ]
+      },
+      {
+        "country": "Belgium",
+        "capital": "Brussels",
+        "area": 30528,
+        "population": 11555997,
+        "largest_cities": [
+          "Brussels",
+          "Antwerp",
+          "Ghent",
+          "Charleroi",
+          "Liège"
+        ]
+      }
+    ]
+  },
+  {
+    "continent": "Asia",
+    "countries": [
+      {
+        "country": "Japan",
+        "capital": "Tokyo",
+        "area": 377975,
+        "population": 125960000,
+        "largest_cities": [
+          "Tokyo",
+          "Yokohama",
+          "Osaka",
+          "Nagoya",
+          "Sapporo"
+        ]
+      },
+      {
+        "country": "India",
+        "capital": "New Delhi",
+        "area": 3287263,
+        "population": 1380004385,
+        "largest_cities": [
+          "Mumbai",
+          "Delhi",
+          "Bangalore",
+          "Hyderabad",
+          "Ahmedabad"
+        ]
+      },
+      {
+        "country": "China",
+        "capital": "Beijing",
+        "area": 9596961,
+        "population": 1444216107,
+        "largest_cities": [
+          "Shanghai",
+          "Beijing",
+          "Chongqing",
+          "Tianjin",
+          "Guangzhou"
+        ]
+      },
+      {
+        "country": "South Korea",
+        "capital": "Seoul",
+        "area": 100210,
+        "population": 51780579,
+        "largest_cities": [
+          "Seoul",
+          "Busan",
+          "Incheon",
+          "Daegu",
+          "Daejeon"
+        ]
+      },
+      {
+        "country": "Indonesia",
+        "capital": "Jakarta",
+        "area": 1904569,
+        "population": 273523621,
+        "largest_cities": [
+          "Jakarta",
+          "Surabaya",
+          "Bandung",
+          "Medan",
+          "Bekasi"
+        ]
+      },
+      {
+        "country": "Thailand",
+        "capital": "Bangkok",
+        "area": 513120,
+        "population": 69799978,
+        "largest_cities": [
+          "Bangkok",
+          "Nonthaburi",
+          "Pak Kret",
+          "Hat Yai",
+          "Chiang Mai"
+        ]
+      },
+      {
+        "country": "Vietnam",
+        "capital": "Hanoi",
+        "area": 331212,
+        "population": 97338583,
+        "largest_cities": [
+          "Ho Chi Minh City",
+          "Hanoi",
+          "Hai Phong",
+          "Can Tho",
+          "Da Nang"
+        ]
+      },
+      {
+        "country": "Pakistan",
+        "capital": "Islamabad",
+        "area": 881913,
+        "population": 220892331,
+        "largest_cities": [
+          "Karachi",
+          "Lahore",
+          "Faisalabad",
+          "Rawalpindi",
+          "Gujranwala"
+        ]
+      },
+      {
+        "country": "Malaysia",
+        "capital": "Kuala Lumpur",
+        "area": 330803,
+        "population": 32365999,
+        "largest_cities": [
+          "Kuala Lumpur",
+          "George Town",
+          "Ipoh",
+          "Shah Alam",
+          "Johor Bahru"
+        ]
+      }
+    ]
+  },
+  {
+    "continent": "Africa",
+    "countries": [
+      {
+        "country": "Nigeria",
+        "capital": "Abuja",
+        "area": 923768,
+        "population": 206139589,
+        "largest_cities": [
+          "Lagos",
+          "Kano",
+          "Ibadan",
+          "Benin City",
+          "Port Harcourt"
+        ]
+      },
+      {
+        "country": "South Africa",
+        "capital": "Pretoria",
+        "area": 1221037,
+        "population": 59308690,
+        "largest_cities": [
+          "Johannesburg",
+          "Cape Town",
+          "Durban",
+          "Pretoria",
+          "Port Elizabeth"
+        ]
+      },
+      {
+        "country": "Egypt",
+        "capital": "Cairo",
+        "area": 1002450,
+        "population": 102334403,
+        "largest_cities": [
+          "Cairo",
+          "Alexandria",
+          "Giza",
+          "Shubra El-Kheima",
+          "Port Said"
+        ]
+      },
+      {
+        "country": "Kenya",
+        "capital": "Nairobi",
+        "area": 580367,
+        "population": 53771296,
+        "largest_cities": [
+          "Nairobi",
+          "Mombasa",
+          "Kisumu",
+          "Nakuru",
+          "Eldoret"
+        ]
+      },
+      {
+        "country": "Ethiopia",
+        "capital": "Addis Ababa",
+        "area": 1104300,
+        "population": 114963588,
+        "largest_cities": [
+          "Addis Ababa",
+          "Dire Dawa",
+          "Mekelle",
+          "Gondar",
+          "Bahir Dar"
+        ]
+      },
+      {
+        "country": "Morocco",
+        "capital": "Rabat",
+        "area": 446550,
+        "population": 36910560,
+        "largest_cities": [
+          "Casablanca",
+          "Rabat",
+          "Fes",
+          "Marrakech",
+          "Salé"
+        ]
+      }
+    ]
+  },
+  {
+    "continent": "North America",
+    "countries": [
+      {
+        "country": "United States",
+        "capital": "Washington, D.C.",
+        "area": 9833520,
+        "population": 331893745,
+        "largest_cities": [
+          "New York",
+          "Los Angeles",
+          "Chicago",
+          "Houston",
+          "Phoenix"
+        ]
+      },
+      {
+        "country": "Canada",
+        "capital": "Ottawa",
+        "area": 9984670,
+        "population": 38005238,
+        "largest_cities": [
+          "Toronto",
+          "Montreal",
+          "Vancouver",
+          "Calgary",
+          "Edmonton"
+        ]
+      },
+      {
+        "country": "Mexico",
+        "capital": "Mexico City",
+        "area": 1964375,
+        "population": 128932753,
+        "largest_cities": [
+          "Mexico City",
+          "Guadalajara",
+          "Monterrey",
+          "Puebla",
+          "Toluca"
+        ]
+      },
+      {
+        "country": "Cuba",
+        "capital": "Havana",
+        "area": 109884,
+        "population": 11326616,
+        "largest_cities": [
+          "Havana",
+          "Santiago de Cuba",
+          "Camagüey",
+          "Holguín",
+          "Santa Clara"
+        ]
+      },
+      {
+        "country": "Guatemala",
+        "capital": "Guatemala City",
+        "area": 108889,
+        "population": 17915568,
+        "largest_cities": [
+          "Guatemala City",
+          "Mixco",
+          "Villa Nueva",
+          "Quetzaltenango",
+          "Escuintla"
+        ]
+      }
+    ]
+  },
+  {
+    "continent": "South America",
+    "countries": [
+      {
+        "country": "Brazil",
+        "capital": "Brasília",
+        "area": 8515767,
+        "population": 213993437,
+        "largest_cities": [
+          "São Paulo",
+          "Rio de Janeiro",
+          "Brasília",
+          "Salvador",
+          "Fortaleza"
+        ]
+      },
+      {
+        "country": "Argentina",
+        "capital": "Buenos Aires",
+        "area": 2780400,
+        "population": 45195777,
+        "largest_cities": [
+          "Buenos Aires",
+          "Córdoba",
+          "Rosario",
+          "Mendoza",
+          "La Plata"
+        ]
+      },
+      {
+        "country": "Colombia",
+        "capital": "Bogotá",
+        "area": 1141748,
+        "population": 50882884,
+        "largest_cities": [
+          "Bogotá",
+          "Medellín",
+          "Cali",
+          "Barranquilla",
+          "Cartagena"
+        ]
+      },
+      {
+        "country": "Peru",
+        "capital": "Lima",
+        "area": 1285216,
+        "population": 32971846,
+        "largest_cities": [
+          "Lima",
+          "Arequipa",
+          "Trujillo",
+          "Chiclayo",
+          "Piura"
+        ]
+      },
+      {
+        "country": "Chile",
+        "capital": "Santiago",
+        "area": 756102,
+        "population": 19116209,
+        "largest_cities": [
+          "Santiago",
+          "Puente Alto",
+          "Antofagasta",
+          "Valparaíso",
+          "Concepción"
+        ]
+      }
+    ]
+  },
+  {
+    "continent": "Oceania",
+    "countries": [
+      {
+        "country": "Australia",
+        "capital": "Canberra",
+        "area": 7692024,
+        "population": 25687041,
+        "largest_cities": [
+          "Sydney",
+          "Melbourne",
+          "Brisbane",
+          "Perth",
+          "Adelaide"
+        ]
+      },
+      {
+        "country": "New Zealand",
+        "capital": "Wellington",
+        "area": 268838,
+        "population": 5084300,
+        "largest_cities": [
+          "Auckland",
+          "Wellington",
+          "Christchurch",
+          "Hamilton",
+          "Tauranga"
+        ]
+      },
+      {
+        "country": "Fiji",
+        "capital": "Suva",
+        "area": 18274,
+        "population": 896444,
+        "largest_cities": [
+          "Suva",
+          "Nadi",
+          "Lautoka",
+          "Labasa",
+          "Ba"
+        ]
+      },
+      {
+        "country": "Papua New Guinea",
+        "capital": "Port Moresby",
+        "area": 462840,
+        "population": 8947024,
+        "largest_cities": [
+          "Port Moresby",
+          "Lae",
+          "Arawa",
+          "Mount Hagen",
+          "Madang"
+        ]
+      }
+    ]
+  }
+]
