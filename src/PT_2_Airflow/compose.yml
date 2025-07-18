@@ -10,7 +10,7 @@ services:
       - ./airflow:/opt/airflow
 
   airflow-webserver:
-    image: apache/airflow:2.7.3
+    image: apache/airflow:2.10.4
     container_name: airflow_webserver
     restart: always
     depends_on:
@@ -25,7 +25,7 @@ services:
       - ./airflow:/opt/airflow
 
   airflow-scheduler:
-    image: apache/airflow:2.7.3
+    image: apache/airflow:2.10.4
     container_name: airflow_scheduler
     restart: always
     depends_on:
