@@ -1,11 +1,11 @@
 #Ignore Airflow logs — they are auto-generated and not needed in version control.
-PT-2-Airflow/airflow/logs/
+src/PT_2_Airflow/airflow/logs/
 
 #Ignore the SQLite database file used by Airflow — it stores runtime state, not code.
-PT-2-Airflow/airflow/airflow.db
+src/PT_2_Airflow/airflow/airflow.db
 
 #Ignore the Airflow config file — it may contain local paths or credentials.
-PT-2-Airflow/airflow/airflow.cfg
+src/PT_2_Airflow/airflow/airflow.cfg
 
 #Ignore Python bytecode cache directories created during execution.
 __pycache__/

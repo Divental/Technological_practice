@@ -1,7 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
-from sql_executor.fetch_data_from_api import sql_execution
+from fetch_and_load_data.fetch_from_api_and_load_into_table import fill_weather_table
 
 
 default_args = {
@@ -21,7 +21,7 @@ with DAG(
     
     fetch_api_data = PythonOperator(
         task_id = "fetch_data_from_api_task",
-        python_callable = sql_execution
+        python_callable = fill_weather_table
     )
     
 fetch_api_data
